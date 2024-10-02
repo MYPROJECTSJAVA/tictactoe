@@ -26,7 +26,7 @@ public class SimpleClient {
     public static void main(String[] args){
         turn=!turn;
         try{
-            Socket clientSocket = new Socket("localhost", 5000);
+            Socket clientSocket = new Socket("10.1.212.80", 5000);
             System.out.println("Connected to server!!!");
 
             BufferedReader input=new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));

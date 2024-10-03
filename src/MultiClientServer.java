@@ -7,7 +7,7 @@ public class MultiClientServer {
 
     public static void main(String[] args) {
         try {
-            ServerSocket serverSocket = new ServerSocket(5000);
+            ServerSocket serverSocket = new ServerSocket(6000);
             System.out.println("Server is listening on port 5000...");
 
             // Continuously listen for client connections

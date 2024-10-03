@@ -10,7 +10,7 @@ public class SimpleServer {
     public static void main(String[] args){
         try {
             //server Object
-            ServerSocket serverSocket = new ServerSocket(5000);
+            ServerSocket serverSocket = new ServerSocket(6000);
 
             //client socket   &    accepting clientSocket
             Socket clientSocket=serverSocket.accept();
